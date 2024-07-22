@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 1.25rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+    overflow: none;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.center {
+    margin: auto;
+}
+
+.w > * {
+    width: 100%;
+}
+
+.flexandcolandgap {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#comments {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#comments > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#comments > div > div {
+    padding-left: 1.25rem;
+}
